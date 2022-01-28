@@ -6,7 +6,7 @@ function authenticate () {
     $db_usr = "testuser";
     $db_usr_pw = "mypw";
     $db_usr_id = 187;
-    $secret_key = '5PNlkvZWJNXDOmOgAf01uLhWaTjb36J8';
+    $secret_key = 'insert_secret_key';
     $valid_for = '3600';
     if ($_POST['usr'] && $_POST['pw']) {
         $usr = $_POST['usr'];
